@@ -73,13 +73,13 @@ class Statistics extends StatelessWidget {
               Row(
                 children: [
                   Container(
+                    height: 50,
+                    width: 50,
+                    color: Colors.black,
                     child: Icon(
                         Icons.key,
                         color: Colors.white
                     ),
-                    height: 50,
-                    width: 50,
-                    color: Colors.black,
                   ),
                   Container(width: 10,),
                   Text(
